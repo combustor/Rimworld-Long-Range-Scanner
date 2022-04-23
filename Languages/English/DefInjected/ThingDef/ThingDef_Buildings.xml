@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <LongRangeMineralScanner.label>Long-Range Scanner</LongRangeMineralScanner.label>
+  <LongRangeMineralScanner.description>A lateral sensor unit used by researchers to detect resources across the planet. Scanning speed
+depends on the operator's research ability. This sensor can be tuned to specific resource types, and with further research
+may also find certain points of interest. It consumes a lot of electricity. If you find a resource, you'll have to travel to
+collect it.</LongRangeMineralScanner.description>
+</LanguageData>

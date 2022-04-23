@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+
+  <ResearchProjectDef>
+    <defName>LRScanner</defName>
+    <label>Activity Scanning</label>
+    <description>Allows the tuning of the long-range scanner to pick up on isolated movements from a long distance. Unlocks scanning for worksites.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>LongRangeMineralScanner</li>
+    </prerequisites>
+    <researchViewX>14.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>LRScannerVault</defName>
+    <label>Signal Pinpointing</label>
+    <description>Allows the long-range scanner to intercept vault transmissions, which enables the scanner to find vaults.</description>
+    <baseCost>3000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>LongRangeMineralScanner</li>
+      <li>LRScanner</li>
+    </prerequisites>
+    <researchViewX>16.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+
+
+</Defs>
